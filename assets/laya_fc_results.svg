@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" font-family="Arial,sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="450.0" y="26" text-anchor="middle" font-size="17" font-weight="bold">Laya on glaive-function-calling-v2 (routing only)</text>
+<text x="225.0" y="62" text-anchor="middle" font-size="13">Call / no-call accuracy (test, n=2574)</text>
+<line x1="50.0" y1="330" x2="400.0" y2="330" stroke="#444"/>
+<rect x="67.5" y="260.0" width="81.7" height="70.0" fill="#999"/>
+<text x="108.3" y="254.0" text-anchor="middle" font-size="13">0.3042</text>
+<text x="108.3" y="348" text-anchor="middle" font-size="12">Base Laya</text>
+<rect x="184.2" y="181.0" width="81.7" height="149.0" fill="#bbb"/>
+<text x="225.0" y="175.0" text-anchor="middle" font-size="13">0.648</text>
+<text x="225.0" y="348" text-anchor="middle" font-size="12">Always no-call</text>
+<rect x="300.8" y="109.8" width="81.7" height="220.2" fill="#2a7"/>
+<text x="341.7" y="103.8" text-anchor="middle" font-size="13">0.9573</text>
+<text x="341.7" y="348" text-anchor="middle" font-size="12">Fine-tuned</text>
+<text x="675.0" y="62" text-anchor="middle" font-size="13">Which function (test call turns, n=906)</text>
+<line x1="500.0" y1="330" x2="850.0" y2="330" stroke="#444"/>
+<rect x="517.5" y="127.9" width="81.7" height="202.1" fill="#bbb"/>
+<text x="558.3" y="121.9" text-anchor="middle" font-size="13">0.8786</text>
+<text x="558.3" y="348" text-anchor="middle" font-size="12">Random pick</text>
+<rect x="634.2" y="100.3" width="81.7" height="229.7" fill="#999"/>
+<text x="675.0" y="94.3" text-anchor="middle" font-size="13">0.9989</text>
+<text x="675.0" y="348" text-anchor="middle" font-size="12">Base Laya</text>
+<rect x="750.8" y="100.0" width="81.7" height="230.0" fill="#2a7"/>
+<text x="791.7" y="94.0" text-anchor="middle" font-size="13">1</text>
+<text x="791.7" y="348" text-anchor="middle" font-size="12">Fine-tuned</text>
+<text x="450.0" y="396" text-anchor="middle" font-size="11" fill="#555">Single run, one seed, no confidence intervals. Which-function is near ceiling for base Laya (most prompts list 1-2 functions).</text>
+<text x="450.0" y="412" text-anchor="middle" font-size="11" fill="#555">Source: https://github.com/somdipto/laya-cua/blob/main/function_calling/RESULTS.md</text></svg>
