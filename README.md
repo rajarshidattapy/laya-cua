@@ -22,8 +22,16 @@ No text generation, no click coordinates, no screenshots. It is a fast decision 
 
 Limits: small test set, one run per version, about 94% of rows are "not done" so task_done is near a trivial baseline, trained on AgentNet text descriptions only. Details and the live results log are on the model card.
 
+![Computer-use results](assets/laya_cua_results.svg)
+
+## Function-calling routing (separate task)
+Laya also decides call / no-call and which function on glaive-function-calling-v2. Test tool_call accuracy 0.9573 (base 0.3042, always no-call 0.648). Which-function is near ceiling for base Laya, so that gain is not meaningful. One run per library version, no confidence intervals. Weights: https://huggingface.co/sodan/laya-cua-tools. Details: [function_calling/RESULTS.md](function_calling/RESULTS.md).
+
+![Function-calling results](assets/laya_fc_results.svg)
+
 ## Files
 - `agentnet_to_laya.py`: converts OpenCUA AgentNet (MIT) trajectories into Laya rows.
+- `function_calling/laya_fc.py`: the function-calling routing run.
 - Training: the official `laya.train` RLCD loop on one T4 (single run recipe: 2 epochs, encoder LR 2.5e-5, head LR 1e-4, batch 64). A notebook will be added to this repo.
 
 ## License
