@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" font-family="Arial,sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="450.0" y="26" text-anchor="middle" font-size="17" font-weight="bold">Laya computer-use: next action type, held-out (n=334 steps)</text>
+<text x="450.0" y="62" text-anchor="middle" font-size="13">Accuracy</text>
+<line x1="50.0" y1="330" x2="850.0" y2="330" stroke="#444"/>
+<rect x="74.0" y="287.3" width="112.0" height="42.7" fill="#999"/>
+<text x="130.0" y="281.3" text-anchor="middle" font-size="13">0.1856</text>
+<text x="130.0" y="348" text-anchor="middle" font-size="12">Base Laya</text>
+<rect x="234.0" y="165.4" width="112.0" height="164.6" fill="#bbb"/>
+<text x="290.0" y="159.4" text-anchor="middle" font-size="13">0.7156</text>
+<text x="290.0" y="348" text-anchor="middle" font-size="12">Always click</text>
+<rect x="394.0" y="153.7" width="112.0" height="176.3" fill="#69c"/>
+<text x="450.0" y="147.7" text-anchor="middle" font-size="13">0.7665</text>
+<text x="450.0" y="348" text-anchor="middle" font-size="12">v0</text>
+<rect x="554.0" y="144.1" width="112.0" height="185.9" fill="#2a7"/>
+<text x="610.0" y="138.1" text-anchor="middle" font-size="13">0.8084</text>
+<text x="610.0" y="348" text-anchor="middle" font-size="12">v1 (kept)</text>
+<rect x="714.0" y="146.1" width="112.0" height="183.9" fill="#c66"/>
+<text x="770.0" y="140.1" text-anchor="middle" font-size="13">0.7994</text>
+<text x="770.0" y="348" text-anchor="middle" font-size="12">iter2 (dropped)</text>
+<text x="450.0" y="396" text-anchor="middle" font-size="11" fill="#555">Small held-out set from 33 unseen AgentNet (MIT) tasks, one run each. Decision layer only: Laya does not output coordinates or text.</text>
+<text x="450.0" y="412" text-anchor="middle" font-size="11" fill="#555">Numbers as logged during the run; v1 is the published sodan/laya-cua model.</text></svg>
