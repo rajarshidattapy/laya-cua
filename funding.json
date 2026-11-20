@@ -1,0 +1,51 @@
+{
+  "$schema": "https://fundingjson.org/schema/v1.1.0.json",
+  "version": "v1.1.0",
+  "entity": {
+    "type": "individual",
+    "role": "owner",
+    "name": "Somdipto Nandy",
+    "email": "somdiptonandy@gmail.com",
+    "description": "Independent builder and student from Bengaluru, India. I build open computer-use agents and models, including Laya-CUA. I fund my work through grants while studying full time.",
+    "webpageUrl": {
+      "url": "https://github.com/somdipto"
+    }
+  },
+  "projects": [
+    {
+      "guid": "laya-cua",
+      "name": "Laya-CUA",
+      "description": "An open-source computer-use agent that picks the next computer-use action type, fine-tuned from a 421M decision encoder. Scores 85.9% against a 74.4% baseline on 469 held-out computer-use steps. Includes the training notebook, AgentNet converter, and results log. A young project, maintained in the open.",
+      "webpageUrl": {
+        "url": "https://github.com/somdipto/laya-cua"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/somdipto/laya-cua"
+      },
+      "licenses": ["spdx:Apache-2.0"],
+      "tags": ["artificial-intelligence", "machine-learning", "agents", "computer-use", "open-source"]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "floss-fund",
+        "type": "other",
+        "address": "https://floss.fund",
+        "description": "Applying to FLOSS/fund (Zerodha)."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "laya-cua-development",
+        "status": "active",
+        "name": "Laya-CUA development",
+        "description": "Support continued development, evaluation compute, and documentation for Laya-CUA.",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "other",
+        "channels": ["floss-fund"]
+      }
+    ]
+  }
+}
