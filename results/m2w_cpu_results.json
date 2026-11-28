@@ -1,0 +1,33 @@
+{
+ "n_train_rows": 40,
+ "n_eval_rows": 20,
+ "always_click": 0.65,
+ "train_maxlen": 512,
+ "cpu_count": 4,
+ "zero_shot": {
+  "acc": 0.65,
+  "pred_mix": [
+   [
+    "click",
+    20
+   ]
+  ],
+  "type_hit": 0,
+  "type_n": 7,
+  "n": 20
+ },
+ "train_seconds": 302,
+ "train_loss": 1.4828,
+ "fine_tuned": {
+  "acc": 0.65,
+  "pred_mix": [
+   [
+    "click",
+    20
+   ]
+  ],
+  "type_hit": 0,
+  "type_n": 7,
+  "n": 20
+ }
+}
